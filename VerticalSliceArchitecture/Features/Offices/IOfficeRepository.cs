@@ -1,6 +1,9 @@
-﻿namespace VerticalSliceArchitecture.Features.Offices
+﻿using VerticalSliceArchitecture.Common;
+using VerticalSliceArchitecture.Domain;
+
+namespace VerticalSliceArchitecture.Features.Offices
 {
-    public interface IOfficeRepository
+    public interface IOfficeRepository : IBaseRepository<OfficeEntity>
     {
     }
 }
