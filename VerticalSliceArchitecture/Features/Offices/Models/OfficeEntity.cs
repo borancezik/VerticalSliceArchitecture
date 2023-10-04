@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using VerticalSliceArchitecture.Domain;
 
-namespace VerticalSliceArchitecture.Domain
+namespace VerticalSliceArchitecture.Features.Offices.Models
 {
-    public class OfficeEntity: IEntity
+    public class OfficeEntity : IEntity
     {
         [Column("officeCode")]
         [Key]

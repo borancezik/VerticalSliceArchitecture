@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using VerticalSliceArchitecture.Data;
-using VerticalSliceArchitecture.Features.Offices;
+using VerticalSliceArchitecture.Features.Offices.Abstract;
+using VerticalSliceArchitecture.Features.Offices.Concrete;
 
 var builder = WebApplication.CreateBuilder(args);
 

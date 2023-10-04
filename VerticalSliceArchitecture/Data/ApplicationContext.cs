@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using VerticalSliceArchitecture.Domain;
+using VerticalSliceArchitecture.Features.Offices.Models;
 
 namespace VerticalSliceArchitecture.Data
 {
